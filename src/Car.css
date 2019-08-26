@@ -1,0 +1,48 @@
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+  .Car-logo-slow {
+    animation: Car-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .Car-logo-medium {
+    animation: Car-logo-spin infinite 5s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .Car-logo-fast {
+    animation: Car-logo-spin infinite 1s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  .Car-logo-insane {
+    animation: Car-logo-spin infinite 0.5s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @keyframes Car-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  #Nice-button{
+    background-color: rgb(61, 198, 240);
+    border-color: rgb(68, 129, 199);
+    width: 20%;
+    height: 10%;
+    font-size: 150%;
+    font-weight: bold; 
+  }
+  #Nice-button:hover{
+    cursor: pointer;
+  }

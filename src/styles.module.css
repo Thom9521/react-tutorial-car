@@ -1,0 +1,28 @@
+.bigblue {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 300%;
+  }
+  .bigred {
+    color: rgb(211, 55, 55);
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 300%;
+  }
+  .biggreen {
+    color: rgb(69, 177, 69);
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 300%;
+  }
+  .bigyellow {
+    color: yellow;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 500%;
+  }
